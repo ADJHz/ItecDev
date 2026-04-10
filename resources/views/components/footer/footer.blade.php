@@ -3,7 +3,7 @@
         <div class="md:flex md:justify-between mb-8">
             <div class="mb-6 md:mb-0">
                 <a href="/" class="flex items-center gap-2">
-                     <img src="/storage/images/ItecDevLight.png" alt="ItecDev Logo" class="h-20 w-25 sm:h-20 sm:w-25">
+                    <img src="/images/ItecDevLight.png" alt="ItecDev Logo" class="h-20 w-25 sm:h-20 sm:w-25">
                     <span class="text-xl sm:text-2xl font-extrabold whitespace-nowrap text-blue-600">Itec<span
                             class="text-gray-900 dark:text-white">Dev</span></span>
                 </a>
