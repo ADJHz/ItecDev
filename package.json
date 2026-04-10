@@ -1,18 +1,22 @@
 {
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build"
-    },
-    "devDependencies": {
-        "laravel-vite-plugin": "^3.0.1",
-        "vite": "^8.0.8"
-    },
-    "dependencies": {
-        "@tailwindcss/cli": "^4.2.2",
-        "@tailwindcss/vite": "^4.2.2",
-        "flowbite": "^4.0.1",
-        "tailwindcss": "^4.2.2"
-    }
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "npm run build && wrangler deploy",
+    "preview": "npm run build && wrangler dev"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.31.2",
+    "laravel-vite-plugin": "^3.0.1",
+    "vite": "^8.0.8",
+    "wrangler": "^4.81.1"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "@tailwindcss/vite": "^4.2.2",
+    "flowbite": "^4.0.1",
+    "tailwindcss": "^4.2.2"
+  }
 }
