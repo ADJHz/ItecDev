@@ -2,7 +2,7 @@
     class="bg-white/80 backdrop-blur-md border-b border-gray-100 px-4 lg:px-6 py-2 sm:py-3 dark:bg-gray-800/80 dark:border-gray-700 fixed w-full z-50 top-0">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl gap-2 sm:gap-4">
         <a href="/" class="flex items-center gap-1 sm:gap-2 flex-shrink-0">
-            <img src="/storage/images/ItecDevLight.png" alt="ItecDev Logo" class="h-20 w-25 sm:h-20 sm:w-25">
+            <img src="images/ItecDevLight.png" alt="ItecDev Logo" class="h-20 w-25 sm:h-20 sm:w-25">
             <span class="hidden text-lg sm:inline sm:text-xl font-extrabold whitespace-nowrap text-blue-600">Itec<span
                     class="text-gray-900 dark:text-white">Dev</span></span>
         </a>
